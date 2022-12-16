@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade da aula 11 de HTML</title>
+</head>
+
+<body>
+    <h1>Aliste-se</h1>
+    <form action=" https://bemach1.com.br/html-aula-forms/cadastroRecruta.php" method="post">
+        <label>Seu e-mail <br>
+            <input type="mail" placeholder="seuemail@mail.com">
+        </label>
+        <br><br>
+        <label>Senha <br>
+            <input type="password" placeholder="Crie uma senha">
+        </label>
+        <br><br>
+        <label>Nome completo <br>
+            <input type="text" placeholder="Informe o seu nome">
+        </label>
+        <br><br>
+        <label> CPF (Apenas números) <br>
+            <input type="text" placeholder="00000000000">
+        </label>
+        <br><br>
+        <label> RG (Apenas números) <br>
+            <input type="text" placeholder="0000000">
+        </label>
+        <br><br>
+        <label>Data de nascimento <br>
+            <input type="text" placeholder="dd/mm/aaaa">
+        </label>
+        <br><br>
+        <fieldset>
+            <legend>Necessidades especiais</legend>
+            <input type="radio" name="necessidadesEspeciais" value="Sim"> SIM
+            <br> <br>
+            <input type="radio" name="necessidadesEspeciais" value="Nao"> NÃO
+        </fieldset>
+        <br>
+        <select name="residencia">
+            <option>Selecione seu estado</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Especializazção desejada</legend>
+            <input type="checkbox" name="mecanincaAeronaves" value="mecanincaAeronaves">Mecânica de aeronaves (Back-end)
+            <br><br>
+            <input type="checkbox" name="montagemAeronaves" value="montagemAeronaves">Montagem de aeronaves (Fribt-end)
+            <br><br>
+            <input type="checkbox" name="engenheiroAeronaves" value="engenheiroAeronaves">Engenheiro de aeronaves (FullStack)
+            <br><br>
+            <input type="checkbox" name="piloto" value="piloto">Piloto(Tester)
+            <br><br>
+            <input type="checkbox" name="operadorTrafego" value="operadorTrafego">Operador de tráfego aéreo (Scrum Master)
+        </fieldset>
+
+        <p>Adicione sua foto:</p><input type="file"></button>
+
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
